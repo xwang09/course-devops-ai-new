@@ -66,7 +66,7 @@ class Query(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "RAG Application is live!", "version": "v1"}
+    return {"message": "TestRAG Application is live!", "version": "v1"}
 
 @app.get("/ui")
 def ui():
